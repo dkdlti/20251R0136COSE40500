@@ -55,3 +55,8 @@ print("Hello from COSE40500 Final Assignment!")
 
 def factorial(n):
     return 1 if n == 0 else n * factorial(n - 1)
+
+if __name__ == "__main__":
+    data = [5, 2, 9, 1]
+    bubble_sort(data)
+    print("Sorted:", data)

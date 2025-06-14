@@ -50,3 +50,8 @@ def binary_search(arr, target):
         else:
             high = mid - 1
     return -1
+
+print("Hello from COSE40500 Final Assignment!")
+
+def factorial(n):
+    return 1 if n == 0 else n * factorial(n - 1)
